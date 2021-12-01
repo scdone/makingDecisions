@@ -6,7 +6,13 @@
   If it is not, console log "Coding has its challenges."
 */
 
-//CODE HERE
+// var lovesCode = false;
+// console.log(lovesCode)
+// if(lovesCode === true){
+//   console.log("I love to code!")
+// } else {
+//   console.log(`Coding has its challanges.`)
+// }
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
@@ -21,7 +27,13 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
+// if (amysAge > brittanisAge) {
+//   console.log(`Amy is older.`)
+// } else if (amysAge === brittanisAge) {
+//   console.log(`Amy and Brittani are the same age.`)
+// } else if (amysAge < brittanisAge) {
+//   console.log(`Brittani is older.`)
+// }
 
 ////////// PROBLEM 3 //////////
 
@@ -30,6 +42,11 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+// if(amysBirthYear === brittanisBirthYear) {
+//   console.log(`Amy and Brittani were born in the same year.`)
+// } else {
+//   console.log(`Amy and Brittani were not born in the same year.`)
+// }
 
 
 ////////// PROBLEM 4 //////////
@@ -43,13 +60,25 @@ let rain = true
 */
 
 //CODE HERE
-
+if (temperature >= 80 && rain === true) {
+  console.log(`Wear a T-shirt and bring an umbrella.`)
+} else if (temperature >= 80 && rain === false) {
+  console.log ('Wear a tank-top.')
+} else if (temperature > 60 && temperature < 80 && rain === true) {
+  console.log(`Wear a rain jacket.`)
+} else if (temperature > 60 && temperature < 80 && rain === false) {
+  console.log (`Wear a t-shirt, bring a sweater.`)}
+else if (temperature <= 60 && rain === true) {
+  console.log(`Wear a jacket and carry an umbrella.`)
+} else if (temperature <= 60 && rain === false) {
+  console.log(`Wear a hoodie.`)
+}
 
 ////////// PROBLEM 5 //////////
 
 /*
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
-*/
+*
 
 //CODE HERE
 
@@ -104,7 +133,7 @@ let passingScore = 7
 
 ////////// PROBLEM 11 //////////
 
-let z = 5
+//let z = 5
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
