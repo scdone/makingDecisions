@@ -101,6 +101,11 @@ for(let i = 0; i <= 9; i++) {
 */
 
 //CODE HERE
+let array = [1,2,3,4,5,6,7,8,9,10];
+
+for(let i = 9; i >= 0; i--){
+  console.log(array[i]);
+}
 
 let score = 0
 let passingScore = 7
