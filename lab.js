@@ -90,7 +90,9 @@ else if (temperature <= 60 && rain === true) {
 */
 
 //CODE HERE
-
+for(let i = 0; i <= 9; i++) {
+    console.log(`hello, world.`)
+  }
 
 ////////// PROBLEM 7 //////////
 
