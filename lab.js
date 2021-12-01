@@ -89,23 +89,25 @@ else if (temperature <= 60 && rain === true) {
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-//CODE HERE
+//CODE HERE//
+
 for(let i = 0; i <= 9; i++) {
     console.log(`hello, world.`)
   }
+
 
 ////////// PROBLEM 7 //////////
 
 /*
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
-
-//CODE HERE
 let array = [1,2,3,4,5,6,7,8,9,10];
 
 for(let i = 9; i >= 0; i--){
   console.log(array[i]);
 }
+
+//CODE HERE
 
 let score = 0
 let passingScore = 7
@@ -117,11 +119,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-
 while(score < passingScore) {
-    console.log(`Your score is not high enough.`)
-    score = score + 1;
-  }
+  console.log(`Your score is not high enough.`)
+  score = score + 1;
+}
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -133,18 +134,15 @@ while(score < passingScore) {
 */
 
 //CODE HERE
-
 let changeMyMind = true
 if(changeMyMind === true){changeMyMind = false}
 else if(changeMyMind === false){changeMyMind = true}
-
 
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
 
-let changeMyMind = false
 
 if(changeMyMind !== true){
   changeMyMind = true;
@@ -167,6 +165,3 @@ while(z > 0){
   }
 z--
 }
-
-
-//CODE HERE
